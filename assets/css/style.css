@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     /* I'm a CSS comment! */
     color: #39a6b2;
@@ -12,6 +16,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 header a{
     text-decoration: none;
@@ -25,7 +30,7 @@ header nav ul li {
     display: inline;
 }
 header nav ul li a {
-    margin: 0 25px;
+    margin: 0 35px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 18px;
 }
